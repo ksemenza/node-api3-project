@@ -25,7 +25,7 @@ server.use('/posts', postRouter);
 server.use('/users', userRouter);
 
 server.get('/', (req, res) => {
-    res.send('Welcome to The Hobbit Blog');
+    res.send('Welcome to The Thunder Dome');
 });
 
 module.exports = server;
